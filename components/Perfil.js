@@ -4,9 +4,9 @@ import { View, Text, Image, Button, StyleSheet } from 'react-native';
 export default function ProfileScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Image source={{ uri: 'https://pt.quizur.com/_image?href=https:%2F%2Fimg.quizur.com%2Ff%2Fimg63127e656ae279.74897924.jpeg%3FlastEdited%3D1662156395&w=600&h=600&f=webp' }} style={styles.foto} />
-      <Text style={styles.nome}>Arthur Mattenhauer</Text>
-      <Text style={styles.email}>arthur_games@email.com</Text>
+      <Image source={{ uri: 'https://www.informatique-mania.com/wp-content/uploads/2021/02/guest.png' }} style={styles.foto} />
+      <Text style={styles.nome}>Usuário 01</Text>
+      <Text style={styles.email}>usuario_01@email.com</Text>
       
       <Button title="Voltar" onPress={() => navigation.goBack()} />
     </View>
